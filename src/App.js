@@ -1,7 +1,7 @@
 import React from "react";
 import BestPokemon from "./BestPokemon";
 
-function Logo() {
+const Logo = () => {
   return (
     <div>
       <header>
@@ -10,7 +10,7 @@ function Logo() {
       </header>
     </div>
   );
-}
+};
 function App() {
   return (
     <div>

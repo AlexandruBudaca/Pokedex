@@ -1,7 +1,7 @@
 import React from "react";
 
-function App() {
+const BestPokemon = () => {
   return <p>My favourite Pokemon is Squirtle"</p>;
-}
+};
 
-export default App;
+export default BestPokemon;
