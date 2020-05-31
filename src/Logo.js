@@ -4,7 +4,7 @@ const Logo = (props) => {
   // console.log(props);
 
   return (
-    <header>
+    <header className="container">
       <h1>Welcome to the {props.appName}</h1>
       <img
         onClick={props.clickAction}
